@@ -1,158 +1,80 @@
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=3FB950&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Mohit+%F0%9F%91%8B;Backend+Dev+%7C+Rust+%7C+Open+Source;Already+in+your+favourite+repos+%F0%9F%A6%80" alt="Typing SVG" />
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1a1a2e&height=120&section=header&text=&fontSize=0" />
+<br />
 
-```
- ███╗   ███╗ ██████╗ ██╗  ██╗██╗████████╗
- ████╗ ████║██╔═══██╗██║  ██║██║╚══██╔══╝
- ██╔████╔██║██║   ██║███████║██║   ██║
- ██║╚██╔╝██║██║   ██║██╔══██║██║   ██║
- ██║ ╚═╝ ██║╚██████╔╝██║  ██║██║   ██║
- ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝
-```
+<div align="center">
 
-### Backend Engineer · Rust & Open Source · Building in Public
-
-[![Twitter](https://img.shields.io/badge/X-@mohitdebian-000?style=flat&logo=x&logoColor=white)](https://x.com/mohitdebian)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mohitdebian-0077b5?style=flat&logo=linkedin)](https://linkedin.com/in/mohitdebian)
-[![Portfolio](https://img.shields.io/badge/Web-mohitbuilds.in-ff6b35?style=flat&logo=vercel&logoColor=white)](https://mohitbuilds.in)
-[![npm](https://img.shields.io/badge/npm-mohitdebian-cb3837?style=flat&logo=npm)](https://www.npmjs.com/~mohitdebian)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mohitdebian-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohitdebian)
+[![Portfolio](https://img.shields.io/badge/Web-mohitbuilds.in-3fb950?style=for-the-badge&logo=vercel&logoColor=white)](https://mohitbuilds.in)
+[![X](https://img.shields.io/badge/X-@mohitdebian-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mohitdebian)
+[![npm](https://img.shields.io/badge/npm-gitsweep--cli-cb3837?style=for-the-badge&logo=npm&logoColor=white)](https://npmjs.com/package/gitsweep-cli)
 
 </div>
 
 ---
 
-## `$ whoami`
+## About
 
-```rust
-struct Mohit {
-    role:        "Backend Developer",
-    university:  "JECRC University — B.Tech CS, Year 1",
-    focus:       ["Rust", "Open Source", "Developer Tooling"],
-    currently:   "Contributing to prefix-dev/pixi & conda/rattler",
-    building:    "Tools that make developers' lives easier",
-}
+First-year CS student at JECRC University. I write Rust, ship CLIs, and contribute to open source ecosystems I actually use.
+
+I've been contributing to **[pixi](https://github.com/prefix-dev/pixi)** and **[rattler](https://github.com/conda/rattler)** — the conda packaging stack in Rust — before knowing ESoC was a thing. That's just what I do.
+
+---
+
+## Open Source
+
+> Projects I've contributed to, not just starred.
+
+**[prefix-dev/pixi](https://github.com/prefix-dev/pixi)** — Universal package manager in Rust  
+Fixed a panic triggered when the working directory was deleted mid-run.
+
+**[conda/rattler](https://github.com/conda/rattler)** — Rust crates for conda packages  
+Fixed mirror URL path preservation when rewriting proxy requests. (+54/−5 lines, 11-comment review thread)
+
+**[prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)** — Conda package builder  
+Wrote comprehensive multi-output recipe documentation. (+260 lines)
+
+**[RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** — First ever OSS PR  
+Implemented atomic trash delete to prevent race conditions in models.
+
+---
+
+## Projects
+
+**[AlgoMerge](https://algomerge.vercel.app)** — Surfaces GitHub issues ranked by contributor competition. Built for devs who want to contribute but don't know where to start.
+
+**[GitSweep CLI](https://npmjs.com/package/gitsweep-cli)** — Bulk-delete GitHub repos from your terminal. Published on npm `v1.0.0`.
+
+**[PR Radar](https://github.com/mohitdebian/PR-Radar)** — Full-stack TypeScript app for tracking pull requests across repositories.
+
+**[Audify](https://github.com/mohitdebian/Audify-source-code)** — Music streaming platform with a decoupled Node.js backend.
+
+---
+
+## Stack
+
 ```
-
-- 🦀 **Rust contributor** — active PRs in production-grade OSS ecosystems (`pixi`, `rattler`, `rattler-build`)
-- 🔧 **Developer tooling** — I build CLIs, APIs, and platforms for developers
-- 🌱 First-year CS student shipping real open-source work alongside coursework
-- 📬 Open to collaboration — reach me at `mohitdebian` anywhere
-
----
-
-## `$ ls ./projects --best`
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔍 [AlgoMerge](https://algomerge.vercel.app)
-> Find open-source GitHub issues with low contributor competition
-
-Built for developers who want to contribute to OSS but don't know where to start. Surfaces issues ranked by competition level so you actually get your PRs merged.
-
-`Next.js` `React` `GitHub API`
-
-</td>
-<td width="50%">
-
-### 🗑️ [GitSweep CLI](https://npmjs.com/package/gitsweep-cli)
-> Bulk-delete GitHub repositories from your terminal
-
-A Node.js CLI tool published on npm. Clean up your GitHub graveyard in seconds with interactive multi-select and safe confirmation flows.
-
-`Node.js` `npm` `CLI`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📡 [PR Radar](https://github.com/mohitdebian/PR-Radar)
-> Track and monitor pull requests across repositories
-
-Full-stack TypeScript app — separate frontend and backend — for monitoring PR activity across your GitHub orgs and repos.
-
-`TypeScript` `Express` `React`
-
-</td>
-<td width="50%">
-
-### 🎵 [Audify](https://github.com/mohitdebian/Audify-source-code)
-> Music streaming platform with a custom backend
-
-Full audio streaming app with a decoupled backend. 29 commits of production-level source code.
-
-`TypeScript` `Node.js` `Streaming`
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ git log --open-source`
-
-> Real contributions to production codebases used by thousands of developers.
-
-| Project | Org | Contribution | Status |
-|---|---|---|---|
-| **pixi** | `prefix-dev` | Fixed panic bug on deleted working directories | ✅ Merged |
-| **rattler** | `conda` | Fix mirror URL path preservation in request rewriting | 🔄 11 comments |
-| **rattler-build** | `prefix-dev` | Comprehensive multi-output recipe documentation | ✅ Merged |
-| **Rocket.Chat** | `RocketChat` | Atomic trash delete operations (first OSS PR) | ✅ Merged |
-| **aiondemand** | `aiondemand` | Reuse `requests.Session` for performance | ✅ Merged |
-
----
-
-## `$ cat ./stack.toml`
-
-```toml
-[languages]
-primary   = ["Rust", "TypeScript", "JavaScript"]
-secondary = ["Python", "Bash", "Solidity"]
-
-[backend]
-runtimes  = ["Node.js", "Bun"]
-databases = ["Supabase", "Firebase"]
-infra     = ["Vercel", "Render", "Cloudflare", "Google Cloud"]
-
-[currently_learning]
-focus = ["Backend systems", "Rust internals", "OSS contribution patterns"]
+Rust · TypeScript · Node.js · Python · Bun
+Supabase · Firebase · Vercel · Cloudflare · Google Cloud
 ```
 
 ---
 
-## `$ curl stats.github.com/mohitdebian`
+## GitHub Activity
 
 <div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohitdebian&theme=github-compact&hide_border=true&bg_color=0d1117&color=3fb950&line=3fb950&point=ffffff&area=true&area_color=3fb950" width="100%" />
+</div>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohitdebian&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=ff6b35&text_color=c9d1d9&ring_color=58a6ff)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mohitdebian&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
-![Streak](https://streak-stats.demolab.com?user=mohitdebian&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b35&currStreakLabel=58a6ff)
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mohitdebian&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=3fb950&text_color=c9d1d9&rank_icon=github" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohitdebian&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&langs_count=6" height="160" />
 </div>
 
 ---
 
-## `$ ./contact.sh`
-
-```sh
-# I'm always open to:
-# → collaborating on developer tools
-# → open source projects in Rust / TypeScript
-# → feedback on what I'm building
-
-echo "Drop a message → mohitbuilds.in"
-```
-
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f0f0f&height=80&section=footer" />
-
-*289 contributions last year · Building consistently, one commit at a time.*
-
+  <sub>289 contributions in the last year · open to ESoC 2026 · <a href="https://mohitbuilds.in">mohitbuilds.in</a></sub>
 </div>
