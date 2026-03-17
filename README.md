@@ -76,14 +76,12 @@ Full-featured music streaming interface backed by a dedicated Node.js API servic
 
 ## Open Source Contributions
 
-| Project | Description | PR / Issue |
+| Project | Description | Status |
 |---|---|---|
 | **[prefix-dev/pixi](https://github.com/prefix-dev/pixi)** | Fix: panic on deleted working directory | `merged` |
 | **[conda/rattler](https://github.com/conda/rattler)** | Fix: preserve mirror URL path when rewriting requests | `+54 −5` |
 | **[prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)** | Docs: comprehensive multi-output recipe documentation | `+260` |
-| **[RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | Fix: atomic trash delete operations | `first PR` |
-| **[aiondemand/aiondemand](https://github.com/aiondemand/aiondemand)** | Perf: reuse `requests.Session` for sync HTTP calls | `8 comments` |
-| **[zulip/zulip](https://github.com/zulip/zulip)** | Bug: unread count desync after topic rename | `8 comments` |
+| **[RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | Fix: atomic trash delete operations | `merged` |
 
 ---
 
