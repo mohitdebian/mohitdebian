@@ -74,15 +74,6 @@ Full-featured music streaming interface backed by a dedicated Node.js API servic
 
 ---
 
-## Open Source Contributions
-
-| Project | Status |
-|---|---|
-| **[prefix-dev/pixi](https://github.com/prefix-dev/pixi)** | `merged` |
-| **[conda/rattler](https://github.com/conda/rattler)** | `merged` |
-| **[prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)** | `merged` |
-| **[RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | `merged` |
-
 ---
 
 ## GitHub Stats
