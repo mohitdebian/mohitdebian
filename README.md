@@ -60,6 +60,7 @@ Contributor to production Rust codebases in the conda/packaging ecosystem.
 ![Node.js](https://img.shields.io/badge/Node.js-3c873a?style=for-the-badge&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776ab?style=for-the-badge&logo=python&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-fbf0df?style=for-the-badge&logo=bun&logoColor=black)
+![Elysia](https://img.shields.io/badge/Elysia-ce422b?style=for-the-badge&logo=bun&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?style=for-the-badge&logo=supabase&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
