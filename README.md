@@ -34,10 +34,24 @@ This is a real snapshot of the work visible on my GitHub as of August 2, 2026.
 
 ### Merged or landed contribution examples
 
-- [prefix-dev/pixi](https://github.com/prefix-dev/pixi): [avoid panic when current working directory no longer exists](https://github.com/prefix-dev/pixi/pull/5652)
-- [conda/rattler](https://github.com/conda/rattler): [preserve mirror URL path when rewriting requests](https://github.com/conda/rattler/pull/2183)
-- [prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build): [show executed commands for failing test scripts](https://github.com/prefix-dev/rattler-build/pull/2266)
-- [prefix-dev/recipe-format](https://github.com/prefix-dev/recipe-format): [add build.post_process to the schema](https://github.com/prefix-dev/recipe-format/pull/77)
+I actively contribute to the Rust package-management ecosystem and core systems architecture. **Currently at 7 PRs merged directly into production by core maintainers across 4 repositories.**
+
+#### 🦀 Rust Ecosystem (Prefix.dev, Conda, Pixi)
+* **[Prefix.dev / Rattler-Build](https://github.com/prefix-dev/rattler-build):** 
+  * Added command execution tracing in the native bash runner to isolate error diagnostics while masking sensitive environment credentials from public CI logs ([Merged PR #2266](https://github.com/prefix-dev/rattler-build/pull/2266)). 
+  * Authored the `build.post_process` schema documentation ([Merged PR #2254](https://github.com/prefix-dev/rattler-build/pull/2254)).
+  * Documented the multi-output recipe DAG reference architecture for multi-package build pipelines ([Merged PR #2200](https://github.com/prefix-dev/rattler-build/pull/2200)).
+* **[Prefix.dev / Recipe-Format](https://github.com/prefix-dev/recipe-format):** 
+  * Authored the canonical `build.post_process` schema and accompanying test suite, adopted across the recipe specification at the maintainer's invitation ([Merged PR #77](https://github.com/prefix-dev/recipe-format/pull/77)).
+* **[Conda / Rattler](https://github.com/conda/rattler):** 
+  * Resolved HTTP 404 package download failures across corporate proxy environments by implementing RFC 3986-compliant URL path joining, preserving enterprise mirror sub-path hierarchies ([Merged PR #2183](https://github.com/conda/rattler/pull/2183)).
+* **[Prefix.dev / Pixi](https://github.com/prefix-dev/pixi):** 
+  * Fixed unhandled CLI panics from deleted working directories via fallback path resolution in `std::env` error handlers ([Merged PR #5652](https://github.com/prefix-dev/pixi/pull/5652)).
+  * Tuned cache version-conflict log severity to cut CI diagnostic noise ([Merged PR #5630](https://github.com/prefix-dev/pixi/pull/5630)).
+
+#### 🛡️ C & Python Security Contributions
+* **[Redis Core](https://github.com/redis/redis):** Investigated a critical use-after-free vulnerability and iterator invalidation in the core blocking-key wakeup engine (`handleClientsBlockedOnKey`). Root-cause analysis adopted upstream by core maintainers ([Adopted PR #15594](https://github.com/redis/redis/pull/15594)).
+* **[QwenPaw (AgentScope)](https://github.com/agentscope-ai/QwenPaw):** Secured autonomous LLM tool execution by identifying directory traversal vulnerabilities and designing strict realpath workspace containment validation ([Adopted PR #6595](https://github.com/agentscope-ai/QwenPaw/pull/6595)).
 
 ### Active contribution examples
 
