@@ -60,27 +60,35 @@ I actively contribute to the Rust package-management ecosystem and core systems 
 - [grpc/grpc](https://github.com/grpc/grpc): [[Python] Fix SyncServicerContext abort not raising exception](https://github.com/grpc/grpc/pull/43126)
 - [envoyproxy/envoy](https://github.com/envoyproxy/envoy): [fix proxy protocol format_string in added_tlvs](https://github.com/envoyproxy/envoy/pull/46497)
 
-## Selected projects
+## 🚀 Selected Projects
 
-These are the projects from my own repos that are worth featuring right now. I am intentionally leaving out forks, placeholders, and low-signal repos.
+These are the projects from my own repositories that are worth featuring right now, intentionally leaving out forks and placeholders to focus on high-signal engineering.
 
-### [Kairo](https://github.com/mohitdebian/Kairo)
-Browsing, organized. A product direction around making the browser a more structured workspace.
+### [Volt](https://github.com/mohitdebian/Volt) | Native AI Terminal
+* **Stack:** Rust, Tauri, PTY, xterm.js
+* Built a native terminal achieving sub-100MB RAM usage and 40ms cold starts (verified via Valgrind & Hyperfine) by leveraging Rust `portable-pty` bindings.
+* Includes a Rust AST-based command safety analyzer that evaluates input execution risks and dynamically intercepts destructive OS operations before execution.
 
-### [Senior-Open-Source-Engineer-Skill](https://github.com/mohitdebian/Senior-Open-Source-Engineer-Skill)
-A reusable workflow for AI coding agents contributing to mature open-source repositories with smaller diffs, stronger debugging, and maintainer-friendly output.
+### [Kairo](https://github.com/mohitdebian/Kairo) | Multi-Process Desktop Browser
+* **Stack:** Electron, TypeScript, React, IPC
+* Developed a multi-process browser isolating web content into secure containers for enhanced rendering stability, featuring an LLM-assisted context grouping engine.
+* Designed an aggressive memory manager that automatically deallocates inactive background tab renderer processes, preventing memory leaks during heavy multitasking.
 
-### [YOINK](https://github.com/mohitdebian/YOINK)
-A tool for extracting data or actions from sites and APIs when the clean integration path does not already exist.
+### [AlgoMerge](https://github.com/mohitdebian/AlgoMerge) | Open-Source Issue Discovery
+* **Stack:** React, Next.js, GraphQL, Node.js
+* Engineered a GraphQL-powered algorithmic contribution scoring engine that analyzes repository metadata to rank open-source issues by lowest contributor competition.
+* Optimized GitHub API integration with client-side state caching, drastically reducing API latency and preventing rate-limit throttling.
 
-### [Volt](https://github.com/mohitdebian/Volt)
-An ultra-lightweight AI terminal project built around fast local workflows.
+### [Senior OSS Engineer Skill](https://github.com/mohitdebian/Senior-Open-Source-Engineer-Skill) | AI Agent Workflow
+* A robust, reusable workflow architecture for autonomous AI coding agents designed specifically for contributing to mature open-source codebases.
+* Enforces strict engineering rigor: smaller Git diffs, strong pre-commit debugging, and maintainer-friendly PR formatting.
 
-### [GitSweep](https://github.com/mohitdebian/GitSweep)
-A terminal utility for safely bulk-deleting GitHub repositories with explicit confirmation.
+### [GitSweep](https://github.com/mohitdebian/GitSweep) | CLI Automation Utility
+* Developed a high-speed terminal utility for safely parsing and bulk-deleting GitHub repositories.
+* Implemented strict explicit confirmation safeguards and optimized network requests for rapid repository lifecycle management.
 
-### [AlgoMerge](https://github.com/mohitdebian/AlgoMerge)
-A project focused on finding promising open-source issues with lower contributor competition.
+### [YOINK](https://github.com/mohitdebian/YOINK) | Data Extraction Engine
+* Built a dynamic extraction tool for reliably harvesting data or actions from obfuscated websites and internal APIs when clean integration paths do not exist.
 
 ## Stack
 
