@@ -1,102 +1,124 @@
 <div align="center">
 
-# Mohit
+# Mohit Singh
 
-### Open-source bug fixer and builder of developer tools, agentic workflows, and terminal-first products.
+### Systems & Backend Engineer · Open-Source Contributor (Kubernetes, gRPC, Redis, Rust Ecosystem)
 
-[![X](https://img.shields.io/badge/@mohitdebian-111111?logo=x&logoColor=white&style=flat-square)](https://x.com/mohitdebian)
-[![LinkedIn](https://img.shields.io/badge/mohitdebian-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://linkedin.com/in/mohitdebian)
-[![Peerlist](https://img.shields.io/badge/mohitdevlabs-00AA45?logo=peerlist&logoColor=white&style=flat-square)](https://peerlist.io/mohitdevlabs)
-[![Website](https://img.shields.io/badge/mohitbuilds.in-F25C2A?style=flat-square)](https://mohitbuilds.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mohitdebian-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://linkedin.com/in/mohitdebian)
+[![GitHub](https://img.shields.io/badge/GitHub-mohitdebian-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/mohitdebian)
+[![Portfolio](https://img.shields.io/badge/Portfolio-mohitbuilds.in-F25C2A?logo=googlechrome&logoColor=white&style=flat-square)](https://mohitbuilds.in)
+[![Peerlist](https://img.shields.io/badge/Peerlist-mohitdevlabs-00AA45?logo=peerlist&logoColor=white&style=flat-square)](https://peerlist.io/mohitdevlabs)
+[![Email](https://img.shields.io/badge/Email-mohitdebian@gmail.com-D14836?logo=gmail&logoColor=white&style=flat-square)](mailto:mohitdebian@gmail.com)
 
 </div>
 
-I like working on code that has sharp edges.
+---
 
-That usually means one of two things:
+### 💡 About Me
 
-- fixing crashes, panics, invalid states, and edge-case behavior in large open-source systems
-- building tools for developers around terminals, browsing, automation, and contribution workflows
+I specialize in **low-level systems debugging, distributed infrastructure, and developer platforms**. My work focuses on fixing edge-case crashes, memory safety vulnerabilities, and concurrency race conditions in large-scale production codebases—as well as engineering high-throughput developer tools, API gateways, and AI agent runtime firewalls.
 
-## Open source snapshot
+- 🛠️ **Languages:** Rust, C++, Go, TypeScript, Python, C
+- 🌐 **Systems & Core:** Concurrency & Asynchronous Runtimes, Linux Internals, IPC/PTY, Distributed Systems, Network Gateways
+- 🔍 **Track Record:** **77 Pull Requests** across **16 top-tier open-source organizations** (Kubernetes, gRPC, Redis, Grafana, OpenHands, Prefix.dev, Conda).
 
-This is a real snapshot of the work visible on my GitHub as of August 2, 2026.
+---
 
-### Recent upstream contribution targets
+## 🏆 Open Source Track Record
 
-- [Kubernetes](https://github.com/kubernetes/kubernetes): metrics, API schema correctness, controller behavior, and kubectl fixes
-- [Redis](https://github.com/redis/redis): crash fixes, null dereferences, use-after-free bugs, and integer overflow cases
-- [gRPC](https://github.com/grpc/grpc): core/compiler warnings and Python runtime behavior
-- [Envoy](https://github.com/envoyproxy/envoy): transport socket edge-case fixes
-- [Grafana](https://github.com/grafana/grafana): dashboard, alerting, and date/week-resolution fixes
-- [Openwork](https://github.com/different-ai/openwork): startup, config, and local MCP server fixes
-- [QwenPaw](https://github.com/agentscope-ai/QwenPaw): agent config, shell execution, subagent schema, and provider support
-
-### Merged or landed contribution examples
-
-I actively contribute to the Rust package-management ecosystem and core systems architecture. **Currently at 7 PRs merged directly into production by core maintainers across 4 repositories.**
-
-#### 🦀 Rust Ecosystem (Prefix.dev, Conda, Pixi)
-* **[Prefix.dev / Rattler-Build](https://github.com/prefix-dev/rattler-build):** 
-  * Added command execution tracing in the native bash runner to isolate error diagnostics while masking sensitive environment credentials from public CI logs ([Merged PR #2266](https://github.com/prefix-dev/rattler-build/pull/2266)). 
-  * Authored the `build.post_process` schema documentation ([Merged PR #2254](https://github.com/prefix-dev/rattler-build/pull/2254)).
-  * Documented the multi-output recipe DAG reference architecture for multi-package build pipelines ([Merged PR #2200](https://github.com/prefix-dev/rattler-build/pull/2200)).
-* **[Prefix.dev / Recipe-Format](https://github.com/prefix-dev/recipe-format):** 
-  * Authored the canonical `build.post_process` schema and accompanying test suite, adopted across the recipe specification at the maintainer's invitation ([Merged PR #77](https://github.com/prefix-dev/recipe-format/pull/77)).
-* **[Conda / Rattler](https://github.com/conda/rattler):** 
-  * Resolved HTTP 404 package download failures across corporate proxy environments by implementing RFC 3986-compliant URL path joining, preserving enterprise mirror sub-path hierarchies ([Merged PR #2183](https://github.com/conda/rattler/pull/2183)).
-* **[Prefix.dev / Pixi](https://github.com/prefix-dev/pixi):** 
-  * Fixed unhandled CLI panics from deleted working directories via fallback path resolution in `std::env` error handlers ([Merged PR #5652](https://github.com/prefix-dev/pixi/pull/5652)).
-  * Tuned cache version-conflict log severity to cut CI diagnostic noise ([Merged PR #5630](https://github.com/prefix-dev/pixi/pull/5630)).
-
-#### 🛡️ C & Python Security Contributions
-* **[Redis Core](https://github.com/redis/redis):** Investigated a critical use-after-free vulnerability and iterator invalidation in the core blocking-key wakeup engine (`handleClientsBlockedOnKey`). Root-cause analysis adopted upstream by core maintainers ([Adopted PR #15594](https://github.com/redis/redis/pull/15594)).
-* **[QwenPaw (AgentScope)](https://github.com/agentscope-ai/QwenPaw):** Secured autonomous LLM tool execution by identifying directory traversal vulnerabilities and designing strict realpath workspace containment validation ([Adopted PR #6595](https://github.com/agentscope-ai/QwenPaw/pull/6595)).
-
-### Active contribution examples
-
-- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes): [Seed ClusterIP allocator metrics on EnableMetrics()](https://github.com/kubernetes/kubernetes/pull/141128)
-- [redis/redis](https://github.com/redis/redis): [Fix recursive crash in signal handler when child process crashes](https://github.com/redis/redis/pull/15576)
-- [grpc/grpc](https://github.com/grpc/grpc): [[Python] Fix SyncServicerContext abort not raising exception](https://github.com/grpc/grpc/pull/43126)
-- [envoyproxy/envoy](https://github.com/envoyproxy/envoy): [fix proxy protocol format_string in added_tlvs](https://github.com/envoyproxy/envoy/pull/46497)
-
-## 🚀 Selected Projects
-
-These are the projects from my own repositories that are worth featuring right now, intentionally leaving out forks and placeholders to focus on high-signal engineering.
-
-### [Volt](https://github.com/mohitdebian/Volt) | Native AI Terminal
-* **Stack:** Rust, Tauri, PTY, xterm.js
-* Built a native terminal achieving sub-100MB RAM usage and 40ms cold starts (verified via Valgrind & Hyperfine) by leveraging Rust `portable-pty` bindings.
-* Includes a Rust AST-based command safety analyzer that evaluates input execution risks and dynamically intercepts destructive OS operations before execution.
-
-### [Kairo](https://github.com/mohitdebian/Kairo) | Multi-Process Desktop Browser
-* **Stack:** Electron, TypeScript, React, IPC
-* Developed a multi-process browser isolating web content into secure containers for enhanced rendering stability, featuring an LLM-assisted context grouping engine.
-* Designed an aggressive memory manager that automatically deallocates inactive background tab renderer processes, preventing memory leaks during heavy multitasking.
-
-### [AlgoMerge](https://github.com/mohitdebian/AlgoMerge) | Open-Source Issue Discovery
-* **Stack:** React, Next.js, GraphQL, Node.js
-* Engineered a GraphQL-powered algorithmic contribution scoring engine that analyzes repository metadata to rank open-source issues by lowest contributor competition.
-* Optimized GitHub API integration with client-side state caching, drastically reducing API latency and preventing rate-limit throttling.
-
-### [Senior OSS Engineer Skill](https://github.com/mohitdebian/Senior-Open-Source-Engineer-Skill) | AI Agent Workflow
-* A robust, reusable workflow architecture for autonomous AI coding agents designed specifically for contributing to mature open-source codebases.
-* Enforces strict engineering rigor: smaller Git diffs, strong pre-commit debugging, and maintainer-friendly PR formatting.
-
-### [GitSweep](https://github.com/mohitdebian/GitSweep) | CLI Automation Utility
-* Developed a high-speed terminal utility for safely parsing and bulk-deleting GitHub repositories.
-* Implemented strict explicit confirmation safeguards and optimized network requests for rapid repository lifecycle management.
-
-### [YOINK](https://github.com/mohitdebian/YOINK) | Data Extraction Engine
-* Built a dynamic extraction tool for reliably harvesting data or actions from obfuscated websites and internal APIs when clean integration paths do not exist.
-
-## Stack
+I contribute directly to tier-1 open source repositories, identifying root causes, authoring regression tests, and working closely with upstream maintainers to land production fixes.
 
 ```txt
-Go · Rust · TypeScript · Python · C · C++ · Node.js
-Systems debugging · CLI tooling · OSS contribution workflows · full-stack product work
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│  77 PRs Authored  │  12+ Production PRs Merged  │  16 Upstream Organizations    │
+│  Targeted: Kubernetes · gRPC · Redis · Grafana · OpenHands · Pixi · Rattler     │
+└─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### 🎯 Featured Upstream Merged PRs
+
+#### ☸️ Kubernetes (CNCF)
+* **[kubernetes/kubernetes #141086](https://github.com/kubernetes/kubernetes/pull/141086):** Resolved a critical OpenAPI schema generation issue in the core API machinery by adding atomic struct markers to `EventSeries`, unblocking downstream data ingestion pipelines.
+
+#### 📊 Grafana Labs
+* **[grafana/grafana #129900](https://github.com/grafana/grafana/pull/129900):** Fixed a silent state-loss bug in the Alerting rule editor caused by an asynchronous UI race condition when dismissing the options tooltip.
+
+#### 🤖 OpenHands (All-Hands-AI)
+* **[OpenHands/OpenHands #16444](https://github.com/All-Hands-AI/OpenHands/pull/16444):** Repaired workspace directory rendering by eliminating pagination cutoff constraints, ensuring entire repository structures remain visible to autonomous agents.
+
+#### 🦀 Rust Systems & Package Tooling (Prefix.dev, Conda, Pixi)
+* **[prefix-dev/rattler-build #2266](https://github.com/prefix-dev/rattler-build/pull/2266):** Added credential-masking command execution tracing to the native bash runner, isolating build diagnostics without leaking CI secrets.
+* **[prefix-dev/recipe-format #77](https://github.com/prefix-dev/recipe-format/pull/77):** Authored the canonical `build.post_process` schema specification and test suite, officially adopted maintainer-wide across the Prefix.dev ecosystem.
+* **[prefix-dev/rattler-build #2254](https://github.com/prefix-dev/rattler-build/pull/2254) & [#2200](https://github.com/prefix-dev/rattler-build/pull/2200):** Authored the complete `build.post_process` specification documentation and the multi-output recipe DAG reference architecture.
+* **[conda/rattler #2183](https://github.com/conda/rattler/pull/2183):** Resolved HTTP 404 package mirror download failures across enterprise corporate proxies via RFC 3986-compliant URL path joining.
+* **[prefix-dev/pixi #5652](https://github.com/prefix-dev/pixi/pull/5652):** Fixed CLI panics when executing in deleted working directories through graceful fallback path resolution in `std::env` error handlers.
+* **[prefix-dev/pixi #5630](https://github.com/prefix-dev/pixi/pull/5630):** Tuned cache version conflict log levels to eliminate false-alarm diagnostic spam in CI runs.
+
+#### 🛡️ AI Agent Security & Reliability (AgentScope / QwenPaw)
+* **[agentscope-ai/QwenPaw #6833](https://github.com/agentscope-ai/QwenPaw/pull/6833):** Passed required channel routing fields into the driver gate for resilient multi-agent orchestration.
+* **[agentscope-ai/QwenPaw #6615](https://github.com/agentscope-ai/QwenPaw/pull/6615):** Added robust recovery handlers for corrupted agent configuration files and malformed JSON payloads.
+* **[agentscope-ai/QwenPaw #6595](https://github.com/agentscope-ai/QwenPaw/pull/6595):** Secured tool execution environments against directory traversal attacks by implementing strict `realpath` containment validation.
+
+---
+
+### ⚡ Selected Active Contributions (In Review / Landed)
+
+* **[grpc/grpc #43432](https://github.com/grpc/grpc/pull/43432):** Routed C-core fork handlers through `os.register_at_fork` in Python to eliminate epoll `EBADF` crashes during multi-process forking.
+* **[grpc/grpc #43158](https://github.com/grpc/grpc/pull/43158):** Lazy-initialized `SharedBitGen` to prevent static initialization deadlocks on Windows platforms.
+* **[grpc/grpc #43160](https://github.com/grpc/grpc/pull/43160):** Prevented static listener updates from being stalled by transiently missing dynamic xDS clusters.
+* **[kubernetes/kubernetes #141089](https://github.com/kubernetes/kubernetes/pull/141089):** Fixed node lifecycle controller state machine to transition pods to `NotReady` on `False -> Unknown` node status flips.
+* **[kubernetes/kubernetes #141128](https://github.com/kubernetes/kubernetes/pull/141128):** Seeded ClusterIP allocator metrics on `EnableMetrics()` to eliminate missing baseline Prometheus metrics.
+* **[redis/redis #15576](https://github.com/redis/redis/pull/15576):** Fixed recursive signal handler crashes when a child fork terminates unexpectedly.
+* **[redis/redis #15573](https://github.com/redis/redis/pull/15573):** Guarded against null pointer dereferences in `VRANDMEMBER` under empty-key edge cases.
+* **[redis/redis #15594](https://github.com/redis/redis/pull/15594):** Root-cause investigation on heap use-after-free and iterator invalidation in `handleClientsBlockedOnKey`.
+* **[cline/cline #13101](https://github.com/cline/cline/pull/13101):** Optimized the Levenshtein distance calculation in `apply_patch` to prevent UI thread freezes on massive file diffs.
+
+---
+
+## 🚀 Featured Engineering Projects
+
+### [AgentGate](https://github.com/mohitdebian/AgentGate) · Runtime Authorization Firewall for AI Agents
+* **Stack:** Python 3.11+, PyTorch, Qwen 0.8B, Hugging Face, Node.js 22+, React 19, Docker
+* Designed an out-of-process, fail-closed authorization firewall that intercepts agent tool invocations (`bash`, `sql`, `webhooks`) before execution.
+* Evaluates prompt injection, privilege escalation, and blast radius in **<35ms** via a custom neural classification head fine-tuned on Qwen-0.8B, enforcing determinism through `policy.yaml`.
+* Deployed with a live [Hugging Face Space Interactive Playground](https://huggingface.co/spaces/codeload/agentgate-demo) and published [Hugging Face Model Checkpoints](https://huggingface.co/codeload/agentgate-qwen-0.8b).
+
+### [Relay](https://github.com/mohitdebian/relay) · High-Performance API Management Platform & Gateway
+* **Stack:** Go, PostgreSQL, Redis, Next.js, Docker
+* Built a lightweight self-hosted API gateway providing millisecond-level reverse proxying, token-bucket rate limiting, and encrypted API key validation.
+* Engineered an asynchronous, non-blocking PostgreSQL audit logger flushing high-volume request streams with zero proxy latency overhead.
+* Features a full Next.js control plane with real-time analytics, per-key rate limit customization, and webhook dispatching.
+
+### [Volt](https://github.com/mohitdebian/Volt) · Native AI Terminal
+* **Stack:** Rust, Tauri, portable-pty, xterm.js
+* Engineered a native terminal with sub-100MB memory footprint and sub-40ms cold start latency.
+* Implemented a custom Rust AST parsing layer that analyzes input command syntax to detect and intercept destructive shell operations before dispatch.
+
+### [Kairo](https://github.com/mohitdebian/Kairo) · Multi-Process Desktop Workspace
+* **Stack:** Electron, TypeScript, React, Node.js IPC
+* Built a multi-process browser and workspace isolating tabs into distinct OS-level containers for memory and security sandboxing.
+* Features an aggressive memory manager that detects idle background renderer processes and reclaims inactive heap memory under high load.
+
+---
+
+## 🛠️ Technical Arsenal
+
+| Category | Technologies & Tools |
+|---|---|
+| **Core Languages** | Rust · C++ · Go · TypeScript · Python · C · SQL · Bash |
+| **Systems & Concurrency** | Linux Syscalls · POSIX Threads · AsyncIO · Goroutines · IPC · PTY · Valgrind |
+| **Cloud & Infrastructure** | Kubernetes · Docker · PostgreSQL · Redis · gRPC · Envoy · Next.js · Prometheus |
+| **Reliability & Security** | Static Analysis · AST Parsing · Fail-Closed Runtimes · Threat Modeling · CI/CD Pipelines |
+
+---
+
 <div align="center">
-<sub>No stat cards here on purpose. Reliability is better than broken vanity widgets.</sub>
+
+```txt
+"Understanding complex distributed systems deeply and leaving them more reliable than found."
+```
+
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohitdebian)
+[![Visit Portfolio](https://img.shields.io/badge/View_Portfolio-F25C2A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mohitbuilds.in)
+
 </div>
